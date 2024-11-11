@@ -1,5 +1,5 @@
 let form = document.getElementById('form') as HTMLFormElement
-let resumeDisplay = document.getElementById('resume')
+let resumeDisplay = document.getElementById('resume') as HTMLDivElement
 
 form.addEventListener('submit', function (e) {
     e.preventDefault();
@@ -37,5 +37,8 @@ form.addEventListener('submit', function (e) {
     } else {
         console.error('some fields are missing');
     }
+
+    // display on generate time
+    let display = resumeDisplay.style.display= 'block';
 
 })

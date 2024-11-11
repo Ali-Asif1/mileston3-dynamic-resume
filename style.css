@@ -172,18 +172,20 @@ button {
 
 /* styling on showing resume diplay  */
 .resume {
+  display: none;
   font-family: poppins, sans-serif;
-    width: 100%;
-    max-width: 600px;
-    background: linear-gradient(320deg,
+  width: 100%;
+  max-width: 600px;
+  background: linear-gradient(320deg,
       rgba(187, 67, 67, 0.986), rgb(211, 207, 207),
       rgb(153, 152, 152));
       box-shadow: 5px 12px 25px rgba(0, 0, 0, 0.35);
-    padding: 20px;
-    margin-top: 3rem;
-    margin-inline: auto;
-    border: 1px solid rgb(140, 140, 145);
-    border-radius: 8px;
+  padding: 20px;
+  margin-top: 3rem;
+  margin-inline: auto;
+  outline: none;
+  border: 1px solid rgb(140, 140, 145);
+  border-radius: 8px;
 }
 .resume h1{
   color: rgba(187, 67, 67, 0.986);
